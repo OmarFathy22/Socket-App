@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.gradient-bg {
+  background-image: linear-gradient(to right, #F4442C, #F69C08);
+}
+.gradient-bg-black {
+  background-image: linear-gradient(to right, #26262C,#2c2c31);
+}

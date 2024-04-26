@@ -39,19 +39,20 @@ export default function Home() {
   return (
     <main className="w-full min-h-[100vh] relative">
       <div>
-        <h1 className="text-center text-2xl py-5 w-full bg-[#222]">Chat Group</h1>
+        <h1 className="text-center text-2xl py-5 w-full  gradient-bg-black">Chat Room</h1>
       </div>
       <form
         onSubmit={(e) => handleSubmit(e)}
         className="fixed bottom-0 left-0 right-0 w-full flex"
       >
         <input
+          placeholder="Type your message here..."
           value={sendedMessage}
           onChange={(eo) => handleChange(eo)}
           type="text"
-          className="flex-1 py-4 rounded-l-md text-black outline-none"
+          className="flex-1 px-3 py-4 rounded-l-md text-black outline-none"
         />
-        <button type="submit" className="px-10 rounded-r-md py-4 bg-red-500 ">
+        <button type="submit" className="px-10 rounded-r-md py-4 bg-red-500 gradient-bg">
           Send
         </button>
       </form>
