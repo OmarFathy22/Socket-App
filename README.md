@@ -20,8 +20,7 @@ This is a simple chat room application built with Express, Socket.io, and Next.j
 2. run the client app (frontend)
 
 ```bash
-  cd client
-  cd socket-frontend
+  cd client/socket-frontend
   npm install
   npm run dev
 ```
